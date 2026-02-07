@@ -19,8 +19,11 @@
 
 	foreprimary:	#CE7688;
 	foresecondary:	#BA6A7B;
-	foretertiary:	#A05969;
-	// #965363
+
+	//active text color #A05969
+	foretertiary:	#FFFFFF;
+
+	// #965363 active background color
 	forequaternary:	#7B7B7B;
 
 	forequinary:	#8E4E5D;
@@ -92,7 +95,7 @@
 window {
 	background-color: @background;
 	border:           2;
-	padding:          0;
+	padding:          12;
 }
 
 mainbox {
