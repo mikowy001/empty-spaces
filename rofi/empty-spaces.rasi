@@ -96,6 +96,7 @@ window {
 	background-color: @background;
 	border:           2;
 	padding:          12;
+	border-radius: 15px;
 }
 
 mainbox {
@@ -180,8 +181,11 @@ element.alternate.active {
 scrollbar {
 	width:        4px ;
 	handle-width: 8px ;
-	padding:      0;
-	border:       0;
+	padding:      1;
+	border:       1;
+	border-radius: 5px;
+	handle-color: @foretertiary;
+	handle-width: 5px;
 }
 
 mode-switcher {
