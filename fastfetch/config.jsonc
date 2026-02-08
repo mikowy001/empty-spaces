@@ -1,16 +1,20 @@
-// Inspired by Catnap
 {
-    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 	"logo": {
-         "type": "auto",
-         "source": "~/.config/fastfetch/icon.jpg",
-         "width": 28,
-         "height": 12
+         "type": "kitty",
+         "source": "$HOME/.config/fastfetch/laintoasciV6.png",
+         "width": 20,
+		 "height": 10,
+		 "padding": {
+			"right": 2,
+			"left": 2,
+			"top": 2,
+			"down":2
+		 }
      },
 	"display": {
         "separator": " "
     },
-    "modules": [
+	"modules": [
         {
             "key": "╭───────────╮",
             "type": "custom"
