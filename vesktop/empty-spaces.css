@@ -1,0 +1,141 @@
+/**
+ * @name empty-spaces
+ * @description black theme to the rice.
+ * @author mikowy001
+ * @version 1.0
+ */
+
+/* import theme modules */
+@import url("https://refact0r.github.io/system24/build/system24.css");
+
+/* =========================
+   CORE OPTIONS (PERF)
+========================= */
+
+body {
+	--font: "";
+	--code-font: "";
+	font-weight: 400;
+	letter-spacing: normal;
+
+	--gap: 12px;
+	--divider-thickness: 4px;
+	--border-thickness: 2px;
+
+	--animations: off;
+	--list-item-transition: none;
+	--dms-icon-svg-transition: none;
+	--border-hover-transition: none;
+
+	--top-bar-height: var(--gap);
+	--top-bar-button-position: titlebar;
+	--top-bar-title-position: off;
+	--subtle-top-bar-title: off;
+
+	--custom-window-controls: off;
+	--window-control-size: 14px;
+
+	--custom-dms-icon: off;
+	--custom-dms-background: off;
+
+	--background-image: off;
+	--background-image-url: url("");
+
+	--transparency-tweaks: off;
+	--remove-bg-layer: off;
+	--panel-blur: off;
+	--blur-amount: 0px;
+	--bg-floating: var(--bg-3);
+
+	--small-user-panel: on;
+	--unrounding: on;
+
+	--custom-spotify-bar: off;
+	--ascii-titles: off;
+	--ascii-loader: off;
+
+	--panel-labels: on;
+	--label-color: var(--text-muted);
+	--label-font-weight: 500;
+}
+
+/* =========================
+   COLORS (MONOCHROME)
+========================= */
+
+:root {
+	--colors: on;
+
+	/* backgrounds */
+	--backprimary: #0000000f;
+	--backsecondary: #141414;
+	--backtertiary: #1f1f1f;
+	--backquaternary: #2a2a2a;
+	--backquinary: #353535;
+	--backsenary: #404040;
+	--backseptenary: #4a4a4a;
+
+	/* foreground text shades */
+	--foreprimary: #ffffff;
+	--foresecondary: #e0e0e0;
+	--foretertiary: #c8c8c8;
+	--forequaternary: #b0b0b0;
+	--forequinary: #989898;
+
+	/* highlight scale */
+	--highprimary: #ffffff;
+	--highsecondary: #dcdcdc;
+	--hightertiary: #bfbfbf;
+	--highquaternary: #a3a3a3;
+	--highquinary: #8a8a8a;
+
+	/* text roles */
+	--text-0: var(--bg-4);
+	--text-1: var(--foreprimary);
+	--text-2: var(--foresecondary);
+	--text-3: var(--foretertiary);
+	--text-4: var(--forequaternary);
+	--text-5: var(--forequinary);
+
+	/* background roles */
+	--bg-4: var(--backprimary);
+	--bg-3: var(--backsecondary);
+	--bg-2: var(--backtertiary);
+	--bg-1: var(--backquaternary);
+
+	--hover: var(--backtertiary);
+	--active: var(--backsenary);
+	--active-2: var(--backseptenary);
+	--message-hover: var(--hover);
+
+	/* accents (white → grey scale) */
+	--accent-1: #ffffff;
+	--accent-2: #e0e0e0;
+	--accent-3: #c8c8c8;
+	--accent-4: #b0b0b0;
+	--accent-5: #989898;
+	--accent-new: #ffffff;
+
+	/* PERF: flat mention/reply */
+	--mention: var(--hover);
+	--mention-hover: var(--active);
+	--reply: var(--hover);
+	--reply-hover: var(--active);
+
+	/* status (neutralized) */
+	--online: #cfcfcf;
+	--dnd: #a8a8a8;
+	--idle: #b8b8b8;
+	--streaming: #9c9c9c;
+	--offline: var(--text-4);
+
+	/* borders */
+	--border-light: var(--hover);
+	--border: var(--active);
+	--border-hover: var(--accent-2);
+
+	/* base accent colors (neutral greys) */
+	--red-2: #b0b0b0;
+	--green-2: #c0c0c0;
+	--blue-2: #d0d0d
+
