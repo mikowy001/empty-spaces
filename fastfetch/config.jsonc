@@ -1,24 +1,23 @@
 {
-	"logo": {
+    "logo": {
          "type": "kitty",
-         "source": "$HOME/.config/fastfetch/laintoasciV6.png",
          "width": 20,
-		 "height": 10,
-		 "padding": {
-			"right": 2,
-			"left": 2,
-			"top": 2,
-			"down":2
-		 }
+         "height": 10,
+         "padding": {
+            "right": 2,
+            "left": 2,
+            "top": 2,
+            "down": 2
+         }
      },
-	"display": {
+    "display": {
         "separator": " ",
-		"color": {
-    		"output": "#777777"
-		}
-	},
+        "color": {
+            "output": "#777777"
+        }
+    },
 
-	"modules": [
+    "modules": [
         {
             "key": "╭───────────╮",
             "type": "custom"
@@ -56,6 +55,10 @@
         {
             "key": "│  shell   {#keys}│",
             "type": "shell"
+        },
+        {
+            "key": "│ 󰏖 pkgs    {#keys}│",
+            "type": "packages"
         },
         {
             "key": "│ 󰍛 cpu     {#keys}│",
