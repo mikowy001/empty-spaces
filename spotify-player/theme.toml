@@ -1,0 +1,22 @@
+[[themes]]
+name = "monochrome"
+
+[themes.component_style]
+block_title = { fg = "BrightWhite", modifiers = ["Bold"] }
+border = { fg = "BrightBlack" }
+
+playback_track = { fg = "White", modifiers = ["Bold"] }
+playback_artists = { fg = "BrightWhite" }
+playback_album = { fg = "BrightBlack" }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { fg = "#444444", bg = "Black" }
+
+current_playing = { fg = "White", modifiers = ["Bold"] }
+column_header = { fg = "White", modifiers = ["Underlined"] }
+
+selection = { bg = "BrightBlack", fg = "White" }
+
+header = { fg = "White" }
+status_playing = { fg = "White" }
+status_paused = { fg = "BrightBlack" }
+liked = { fg = "White" }
